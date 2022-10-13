@@ -60,14 +60,20 @@
         <div class="container-fluid bg-primary text-white py-4 ">
             <div class="row">
                 <div class="col-lg-8"><h1>Boolean</h1></div>
-                <div class="col-lg-4"><h5>Studenti online negli ultimi 30 giorni</h5></div>
+                <div class="col-lg-4">
+                    <h5>Studenti online negli ultimi 30 giorni</h5>
+                    <h2>125</h2>
+                </div>
             </div>
             
         </div>
         <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-8 bg-dark-custom"><div class="card">
-                        <div class="card-header">
+                    <!-- SEZIONE SX MAIN -->
+                    <div class="col-lg-8 "><div class="card">
+                         <!-- CARD PROSSIME CLASSI -->
+                        
+                         <div class="card-header">
                           <h2>Prossime Classi</h2>
 
                         </div>
@@ -84,68 +90,216 @@
                             </div>
                           </h5>
                           <div class="row">
-                            <div class="col-7">
+                            <div class="col-">
                                 <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Classe 75</li>
-                                <li class="list-group-item">Classe 76</li>
-                                <li class="list-group-item">Classe 77</li>
-                                <li class="list-group-item">Classe 78</li>
-                                <li class="list-group-item">Classe 79</li>
-                                <li class="list-group-item">Classe 80</li>
-                                <li class="list-group-item">Classe 81</li>
-                                <li class="list-group-item">Classe 81</li>
-                                </ul>
-                            </div>
-                            <div class="col-5 d-flex">
-                                <ul class="col-3 list-group list-group-flush">
-                                    <li class="list-group-item">15 Feb 2021</li>
-                                    <li class="list-group-item">15 Feb 2021</li>
-                                    <li class="list-group-item">15 Feb 2021</li>
-                                    <li class="list-group-item">15 Feb 2021</li>
-                                    <li class="list-group-item">15 Feb 2021</li>
-                                    <li class="list-group-item">15 Feb 2021</li>
-                                    <li class="list-group-item">15 Feb 2021</li>
-                                    <li class="list-group-item">15 Feb 2021</li>
-                                </ul>
-                                <ul class="col-3 list-group list-group-flush">
-                                    <li class="list-group-item">20%</li>
-                                    <li class="list-group-item">20%</li>
-                                    <li class="list-group-item">20%</li>
-                                    <li class="list-group-item">20%</li>
-                                    <li class="list-group-item">20%</li>
-                                    <li class="list-group-item">20%</li>
-                                    <li class="list-group-item">20%</li>
-                                    <li class="list-group-item">20%</li>                         
-                                </ul>
-                                <ul class="col-3 list-group list-group-flush">
-                                    <li class="list-group-item"><span class="done bg-success text-white">Done</span></li>
-                                    <li class="list-group-item"><span class="done bg-success text-white">Done</span></li>
-                                    <li class="list-group-item"><span class="done bg-warning text-white">Process</span></li>
-                                    <li class="list-group-item"><span class="done bg-success text-white">Done</span></li>
-                                    <li class="list-group-item"><span class="done bg-danger text-white">Failed</span></li>
-                                    <li class="list-group-item"><span class="done bg-success text-white">Done</span></li>
-                                    <li class="list-group-item"><span class="done bg-danger text-white">Failed</span></li>
-                                    <li class="list-group-item"><span class="done bg-success text-white">Done</span></li>                 
-                                </ul>
-                                <ul class="col-3 list-group list-group-flush">
-                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
-                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
-                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
-                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
-                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
-                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
-                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
-                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
-                                    
-                                </ul>
+                                    <!-- LIST ITEM -->
+                                    <li class="list-group-item d-flex justify-content-between">
+                                        <!-- CLASSE -->
+                                        <div>Classe 75</div>
+                                        <div class="d-flex justify-content-between gap-5">
+                                            <!-- Data -->
+                                            <div>15 Feb 2021</div>
+                                            <!-- ROI -->
+                                            <div>20%</div>
+                                            <!-- STATO -->
+                                            <div class="done bg-success text-white">Done</div>
+                                            <!-- AZIONI -->
+                                            <div>
+                                                <span class="icone mx-2"><i class="fa-solid color-gray fa-pencil"></i></span>
+                                                <span class="icone mx-2"><i class="fa-solid color-gray fa-trash"></i></span>
+                                            </div>
+                                        </div>
+                                </li>
+                                <!-- LIST ITEM -->
+                                <li class="list-group-item d-flex justify-content-between">
+                                    <!-- CLASSE -->
+                                    <div>Classe 75</div>
+                                    <div class="d-flex justify-content-between gap-5">
+                                        <!-- Data -->
+                                        <div>15 Feb 2021</div>
+                                        <!-- ROI -->
+                                        <div>20%</div>
+                                        <!-- STATO -->
+                                        <div class="done bg-success text-white">Done</div>
+                                        <!-- AZIONI -->
+                                        <div>
+                                            <span class="icone mx-2"><i class="fa-solid color-gray fa-pencil"></i></span>
+                                            <span class="icone mx-2"><i class="fa-solid color-gray fa-trash"></i></span>
+                                        </div>
+                                    </div>
+                            </li>
+                             <!-- LIST ITEM -->
+                             <li class="list-group-item d-flex justify-content-between">
+                                <!-- CLASSE -->
+                                <div>Classe 75</div>
+                                <div class="d-flex justify-content-between gap-5">
+                                    <!-- Data -->
+                                    <div>15 Feb 2021</div>
+                                    <!-- ROI -->
+                                    <div>20%</div>
+                                    <!-- STATO -->
+                                    <div class="done bg-success text-white">Done</div>
+                                    <!-- AZIONI -->
+                                    <div>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-pencil"></i></span>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-trash"></i></span>
+                                    </div>
+                                </div>
+                            </li>
+                             <!-- LIST ITEM -->
+                             <li class="list-group-item d-flex justify-content-between">
+                                <!-- CLASSE -->
+                                <div>Classe 75</div>
+                                <div class="d-flex justify-content-between gap-5">
+                                    <!-- Data -->
+                                    <div>15 Feb 2021</div>
+                                    <!-- ROI -->
+                                    <div>20%</div>
+                                    <!-- STATO -->
+                                    <div class="done bg-success text-white">Done</div>
+                                    <!-- AZIONI -->
+                                    <div>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-pencil"></i></span>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-trash"></i></span>
+                                    </div>
+                                </div>
+                            </li>
+                              <!-- LIST ITEM -->
+                              <li class="list-group-item d-flex justify-content-between">
+                                <!-- CLASSE -->
+                                <div>Classe 75</div>
+                                <div class="d-flex justify-content-between gap-5">
+                                    <!-- Data -->
+                                    <div>15 Feb 2021</div>
+                                    <!-- ROI -->
+                                    <div>20%</div>
+                                    <!-- STATO -->
+                                    <div class="done bg-success text-white">Done</div>
+                                    <!-- AZIONI -->
+                                    <div>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-pencil"></i></span>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-trash"></i></span>
+                                    </div>
+                                </div>
+                            </li> 
+                             <!-- LIST ITEM -->
+                             <li class="list-group-item d-flex justify-content-between">
+                                <!-- CLASSE -->
+                                <div>Classe 75</div>
+                                <div class="d-flex justify-content-between gap-5">
+                                    <!-- Data -->
+                                    <div>15 Feb 2021</div>
+                                    <!-- ROI -->
+                                    <div>20%</div>
+                                    <!-- STATO -->
+                                    <div class="done bg-success text-white">Done</div>
+                                    <!-- AZIONI -->
+                                    <div>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-pencil"></i></span>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-trash"></i></span>
+                                    </div>
+                                </div>
+                            </li>
+                             <!-- LIST ITEM -->
+                             <li class="list-group-item d-flex justify-content-between">
+                                <!-- CLASSE -->
+                                <div>Classe 75</div>
+                                <div class="d-flex justify-content-between gap-5">
+                                    <!-- Data -->
+                                    <div>15 Feb 2021</div>
+                                    <!-- ROI -->
+                                    <div>20%</div>
+                                    <!-- STATO -->
+                                    <div class="done bg-success text-white">Done</div>
+                                    <!-- AZIONI -->
+                                    <div>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-pencil"></i></span>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-trash"></i></span>
+                                    </div>
+                                </div>
+                            </li>
+                             <!-- LIST ITEM -->
+                             <li class="list-group-item d-flex justify-content-between">
+                                <!-- CLASSE -->
+                                <div>Classe 75</div>
+                                <div class="d-flex justify-content-between gap-5">
+                                    <!-- Data -->
+                                    <div>15 Feb 2021</div>
+                                    <!-- ROI -->
+                                    <div>20%</div>
+                                    <!-- STATO -->
+                                    <div class="done bg-success text-white">Done</div>
+                                    <!-- AZIONI -->
+                                    <div>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-pencil"></i></span>
+                                        <span class="icone mx-2"><i class="fa-solid color-gray fa-trash"></i></span>
+                                    </div>
+                                </div>
+                            </li>
                             </div>
                             
                           </div>
                           
                           
                         </div>
-                      </div></div>
-                <div class="col-lg-4 bg-dark-custom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique assumenda illum obcaecati maxime nisi consectetur! Totam atque quidem magnam blanditiis veniam quisquam odio quae eos earum aut? Voluptatum, dicta recusandae.</div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header">
+                          <h2>F.A.Q.</h2>
+                        </div>
+                        <div class="card-body">
+                         
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between"><div>Come aggiungere una nuova classe?</div><div><i class="fa-solid fa-chevron-down"></i></div> </li>
+                                <li class="list-group-item d-flex justify-content-between"><div>Come posso accedere alle informazioni del mio account?</div><div><i class="fa-solid fa-chevron-down"></i></div> </li>
+                                <li class="list-group-item d-flex justify-content-between"><div>Posso usare questa dashboard da mobile?</div><div><i class="fa-solid fa-chevron-down"></i></div> </li>
+                                
+                              </ul>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    
+                      <!-- SEZIONE DX MAIN -->
+                <div class="col-lg-4 ">
+                   <!-- CARD TODO -->
+                    <div class="card">
+                        <div class="card-header">
+                          <h2>Todo</h2>
+                        </div>
+                        <div class="card-body">
+                          
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                  <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                  <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
+                                </li>
+                                <li class="list-group-item">
+                                  <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                  <label class="form-check-label" for="secondCheckbox">Lezioni su Bootstrap 5 in classe #75 </label>
+                                </li>
+                                <li class="list-group-item">
+                                  <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                  <label class="form-check-label" for="thirdCheckbox">Controllare username github studenti</label>
+                                </li>
+                              </ul>
+                          
+                        </div>
+                      </div>
+                      <div class="card">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item"><img class="w-100" src="./assets/img/chart.jpg" alt="">
+                            <h3>Utenti attivi</h3>
+                            <p>Lista degli utendi attivi in piattaforma nell'ultimo mese</p>
+                            </li>
+                          <li class="list-group-item">Gennaio: 1200</li>
+                          <li class="list-group-item">Febbraio: 800</li>
+                          <li class="list-group-item">Marzo: 1500</li>
+                          <li class="list-group-item"><a href="">Visualizza report approfondito</a></li>
+                        </ul>
+                      </div>
+                </div>
+                
                 </div>
             </div>
     </div>

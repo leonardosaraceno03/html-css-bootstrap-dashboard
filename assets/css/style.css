@@ -13,7 +13,7 @@ header{
 }
 main{
     height: calc(100% - 70px);
-    background-color: lightcoral;
+    
 }
 #side{
    background-image: url('../img/sidebar-bg.png');
@@ -27,6 +27,9 @@ main{
 }
 .icone{
     padding: 5px;
-    border: 2px solid black;
+    border: 1px solid gray;
     border-radius: 5px;
+}
+.color-gray{
+    color: gray;
 }
