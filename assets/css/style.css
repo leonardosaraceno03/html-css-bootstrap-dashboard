@@ -13,8 +13,8 @@ header{
 }
 main{
     height: calc(100% - 70px);
-    
 }
+
 #side{
    background-image: url('../img/sidebar-bg.png');
     background-repeat: no-repeat;
@@ -32,4 +32,7 @@ main{
 }
 .color-gray{
     color: gray;
+}
+.modal-content{
+    width: 1000px;
 }
