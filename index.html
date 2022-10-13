@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenitore-full">
+  <!-- HEADER -->
+  <header class="d-flex align-items-center">
+    <div class="container-fluid ">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-1">
+                <img src="./assets/img/logo.svg" class="img-fluid  d-sm-none d-md-none d-lg-block " alt="logo-big">
+                <img src="./assets/img/mobile-logo.png" class="img-fluid d-lg-none	 " alt="">
+            </div>
+
+            <div class="col-10"><div class="input-group">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div></div>
+            <!-- Icone header -->
+            <div class="col-1 d-flex justify-content-around">
+                <i class="fa-solid fa-list d-sm-none d-md-none d-lg-block"></i>
+                <i class="fa-solid fa-circle-question d-sm-none d-md-none d-lg-block"></i>
+                <i class="fa-solid fa-ellipsis-vertical d-sm-none d-md-none d-lg-block"></i>
+                
+                <!-- Campanella dropdown -->
+                <div class="btn-group">
+                    <span type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell text-warning"></i>
+                    </span>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><button class="dropdown-item" type="button">Action</button></li>
+                      <li><button class="dropdown-item" type="button">Another action</button></li>
+                      <li><button class="dropdown-item" type="button">Something else here</button></li>
+                    </ul>
+                  </div>
+                <!-- Fine Campanella -->
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- MAIN -->
+  <main>
+    <div class="container-fluid h-100">
+
+    
+    <div class="row px-0 h-100">
+        <!-- Sidebar -->
+    <div class="col-2  bg-dark-custom" id="side"></div>
+         <!-- Content -->
+    <div class="col-10 px-0">
+        <!-- Content area blue -->
+        <div class="container-fluid bg-primary text-white py-4 ">
+            <div class="row">
+                <div class="col-lg-8"><h1>Boolean</h1></div>
+                <div class="col-lg-4"><h5>Studenti online negli ultimi 30 giorni</h5></div>
+            </div>
+            
+        </div>
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 bg-dark-custom"><div class="card">
+                        <div class="card-header">
+                          <h2>Prossime Classi</h2>
+
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title row">
+                            <div class="col-7">Nome</div>
+                            <div class="col-5">
+                                <ul class="row list-group-flush">
+                                    <li class="list-group-item col">Data Inizio</li>
+                                    <li class="list-group-item col">ROI</li>
+                                    <li class="list-group-item col">Stato</li>
+                                    <li class="list-group-item col">Azioni</li>
+                                </ul>
+                            </div>
+                          </h5>
+                          <div class="row">
+                            <div class="col-7">
+                                <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Classe 75</li>
+                                <li class="list-group-item">Classe 76</li>
+                                <li class="list-group-item">Classe 77</li>
+                                <li class="list-group-item">Classe 78</li>
+                                <li class="list-group-item">Classe 79</li>
+                                <li class="list-group-item">Classe 80</li>
+                                <li class="list-group-item">Classe 81</li>
+                                <li class="list-group-item">Classe 81</li>
+                                </ul>
+                            </div>
+                            <div class="col-5 d-flex">
+                                <ul class="col-3 list-group list-group-flush">
+                                    <li class="list-group-item">15 Feb 2021</li>
+                                    <li class="list-group-item">15 Feb 2021</li>
+                                    <li class="list-group-item">15 Feb 2021</li>
+                                    <li class="list-group-item">15 Feb 2021</li>
+                                    <li class="list-group-item">15 Feb 2021</li>
+                                    <li class="list-group-item">15 Feb 2021</li>
+                                    <li class="list-group-item">15 Feb 2021</li>
+                                    <li class="list-group-item">15 Feb 2021</li>
+                                </ul>
+                                <ul class="col-3 list-group list-group-flush">
+                                    <li class="list-group-item">20%</li>
+                                    <li class="list-group-item">20%</li>
+                                    <li class="list-group-item">20%</li>
+                                    <li class="list-group-item">20%</li>
+                                    <li class="list-group-item">20%</li>
+                                    <li class="list-group-item">20%</li>
+                                    <li class="list-group-item">20%</li>
+                                    <li class="list-group-item">20%</li>                         
+                                </ul>
+                                <ul class="col-3 list-group list-group-flush">
+                                    <li class="list-group-item"><span class="done bg-success text-white">Done</span></li>
+                                    <li class="list-group-item"><span class="done bg-success text-white">Done</span></li>
+                                    <li class="list-group-item"><span class="done bg-warning text-white">Process</span></li>
+                                    <li class="list-group-item"><span class="done bg-success text-white">Done</span></li>
+                                    <li class="list-group-item"><span class="done bg-danger text-white">Failed</span></li>
+                                    <li class="list-group-item"><span class="done bg-success text-white">Done</span></li>
+                                    <li class="list-group-item"><span class="done bg-danger text-white">Failed</span></li>
+                                    <li class="list-group-item"><span class="done bg-success text-white">Done</span></li>                 
+                                </ul>
+                                <ul class="col-3 list-group list-group-flush">
+                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
+                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
+                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
+                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
+                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
+                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
+                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
+                                    <li class="list-group-item"><span class="icone mx-2"><i class="fa-solid fa-pencil"></i></span><span class="icone mx-2"><i class="fa-solid fa-trash"></i></span></li>
+                                    
+                                </ul>
+                            </div>
+                            
+                          </div>
+                          
+                          
+                        </div>
+                      </div></div>
+                <div class="col-lg-4 bg-dark-custom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique assumenda illum obcaecati maxime nisi consectetur! Totam atque quidem magnam blanditiis veniam quisquam odio quae eos earum aut? Voluptatum, dicta recusandae.</div>
+                </div>
+            </div>
+    </div>
+    </div>
+   </div>
+</main>
+  </div>
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
+</body>
+</html>

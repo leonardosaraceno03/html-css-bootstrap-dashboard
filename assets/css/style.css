@@ -1,0 +1,32 @@
+/* *{
+    border: 2px solid black;
+} */
+.bg-dark-custom{
+    background-color: #0a1e34;
+}
+.contenitore-full{
+    height: 100vh;
+}
+header{
+    height: 70px;
+
+}
+main{
+    height: calc(100% - 70px);
+    background-color: lightcoral;
+}
+#side{
+   background-image: url('../img/sidebar-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.done{
+    border-radius: 10px;
+    padding: 5px;
+}
+.icone{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
